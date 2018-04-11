@@ -1,0 +1,6 @@
+魅族融合SDK参数如下:
+SDK详见附件
+游戏名称：逸仙诀
+APPID：514
+appKey：191fc001357fcdba1a9c277aa28988ac
+appSecret：8a687a9798c0a3b7edbdfb5cb2be854a

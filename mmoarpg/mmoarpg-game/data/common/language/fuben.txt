@@ -1,0 +1,17 @@
+DUNGEON_LEVEL_NOT_ENOUGH=等级太低无法进入
+DUNGEON_NULL=副本配置读取失败
+DUNGEON_TEAM_PLAYER_MORE=队友人数超过上限，无法进入！
+DUNGEON_SINGLE_MORE=该玩法只能单人前往，请先退出队伍
+DUNGEON_TEAM_NOT_OPEN=该副本的开始时间未到，请耐心等待
+DUNGEON_NOT_OPEN=当前副本难度为开放，请先通过上一个难度的副本
+DUNGEON_ALREAD_IN_DUNGEON=当前场景无法进行该操作，请先退出
+DUNGEON_SINGLE_IN_TEAM=您在组队情况下，无法进入单人副本，请先退出队伍
+DUNGEON_OVER_MESSAGE=<f bcolor='ff000000' border= '8' size = '26' color='ff00d600'>副本已通关，{0}秒后将自动离开副本</f>
+DEMON_TOWER_LV=镇妖塔(第%d层)
+DEMON_TOWER_CANNOT_SWEEP=无法扫荡
+DEMON_TOWER_NOT_ENOUGH_SWEEP_COUNT=扫荡次数不足
+DEMON_TOWER_IS_SWEEPING=正在扫荡中
+DEMON_TOWER_IS_NOT_SWEEPING=不在扫荡中
+DEMON_TOWER_NOT_ENOUGH_DIAMOND=元宝不足
+DEMON_TOWER_IN_TOP=镇妖塔已通关到最高层
+DEMON_TOWER_MUST_ABOVE_TWO=第二层以上才可以扫荡

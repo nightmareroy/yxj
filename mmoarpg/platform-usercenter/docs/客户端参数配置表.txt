@@ -1,0 +1,36 @@
+﻿清源安卓sdk客户端参数：
+message LoginRequest {
+	required string appId 		= 80;		// APPID(productId)(usercenter分配给每个产品一个编号)
+	required string uid 		= userid;	// 账号|第三方UID
+	required string token 		= userid;	// 密码|第三方验证返回的token 清源的token就是userid
+	required string channel 	= 1001;		// 渠道号(usercenter分配清源安卓sdk的4位数字)
+	required int32 os		= 6;		// 系统类型(ios是5，安卓是6)
+	optional string imei		= 客户端取系统;	// 设备号
+	optional string version		= 1000;		// 版本号 LogicVersion 暂定从1000开始编
+	required string channelUid	= userid;	// 清源子渠道编号
+}
+
+清源ios sdk客户端参数：
+message LoginRequest {
+	required string appId 		= 80;		// APPID(productId)(usercenter分配给每个产品一个编号)
+	required string uid 		= userid;	// 账号|第三方UID
+	required string token 		= userid;	// 密码|第三方验证返回的token 清源的token就是userid
+	required string channel 	= 1002;		// 渠道号(usercenter分配清源ios sdk的4位数字)
+	required int32 os			= 5;		// 系统类型(ios是5，安卓是6)
+	optional string imei		= 客户端取系统;	// 设备号
+	optional string version		= 1000;		// 版本号 LogicVersion 暂定从1000开始编
+	required string channelUid	= userid;	//渠道方的用户id
+}
+
+
+当乐 android sdk客户端参数：
+message LoginRequest {
+	required string appId 		= 80;		// APPID(productId)(usercenter分配给每个产品一个编号)
+	required string uid 		= userid;	// 账号|第三方UID
+	required string token 		= token;	// 密码|第三方验证返回的token 清源的token就是userid
+	required string channel 	= 1003;		// 渠道号(usercenter分配清源ios sdk的4位数字)
+	required int32 os			= 6;		// 系统类型(ios是5，安卓是6)
+	optional string imei		= 客户端取系统;	// 设备号
+	optional string version		= 1000;		// 版本号 LogicVersion 暂定从1000开始编
+	required string channelUid	= userid;	//渠道方的用户id
+}

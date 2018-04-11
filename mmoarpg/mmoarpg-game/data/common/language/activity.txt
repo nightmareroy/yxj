@@ -1,0 +1,29 @@
+ACTIVITY_NOT_LEVEL=等级不足
+ACTIVITY_NOT_REQUIRMENT=未满足要求
+ACTIVITY_NOT_CONDITION=条件不足
+ACTIVITY_RECEIVE=已领取
+ACTIVITY_NOT_BATTLE=战力不足
+ACTIVITY_MAILBOX=奖励已发放至邮箱，请查收
+ACTIVITY_NOT_BUYFUND=您还未购买开服基金
+ACTIVITY_CHANGE_ITEM_NOT_ENOUGH=兑换所需物品不足
+ACTIVITY_CKD_NOTEXIST=兑换码不存在
+ACTIVITY_CKD_ISUSE=该兑换码已被使用
+ACTIVITY_CKD_TIMEOUT=兑换码已过期，无法使用
+ACTIVITY_CKD_CHANNELUSE=本渠道无法使用
+ACTIVITY_CKD_SERVERUSE=本服无法使用
+ACTIVITY_CKD_FULLUSE=超过此类型兑换使用上限，无法使用
+ACTIVITY_CKD_USELEVEL=未达到%s级不能兑换
+ACTIVITY_NOT_OPEN=活动未开放
+ACTIVITY_OVER_SEND=本场<font color='ff00d600'>%s</font>活动已结束，精彩还会继续
+ACTIVITY_DAILY_DRAW_NO_FREE_TIME=免费抽奖次数不足
+ACTIVITY_DAILY_DRAW_NO_EXPLORE_TICKETS=探索券不足
+ACTIVITY_DAILY_DRAW_NO_DIAMOND=元宝不足
+ACTIVITY_DAILY_ADVENTURE=%s<font color='ffddf2ff'>仙缘颇深，探索遗迹获得奇遇，竟然找到了</font>%s
+ACTIVITY_SUPERPACKAGE_HAVE_BOUGHT=已购买此礼包
+ACTIVITY_DAILY_GUILD_BOSS=<font size='20' color='ffef880e'>%s</font>仙盟成员<font size='20' color='fff403db'>%s</font>豪掷千金鼓舞全员，仙盟所有成员攻击力加成<font size='20' color='fff403db'>%s</font>。
+ACTIVITY_DAILY_GUILD_DEF_BOSS=<font size='20' color='ffef880e'>%s</font>仙盟成员<font size='20' color='fff403db'>%s</font>豪掷千金鼓舞全员，仙盟所有成员防御加成<font size='20' color='fff403db'>%s</font>。
+FLEE_GOT=奖励已经领取过了
+FLEE_CANNOT_GOT_THIS_RANK=不能领取该段位奖励
+FLEE_NOT_OPEN=未到开放时间
+LIMIT_TIME_GIFT_BOUGHT=已购买
+LIMIT_TIME_GIFT_NO_ENOUTH_DIAMOND=元宝不足

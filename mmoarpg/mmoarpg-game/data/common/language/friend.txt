@@ -1,0 +1,28 @@
+FRIEND_NOT_EXIST=好友不存在
+FRIEND_DEL_SUCESS=删除好友成功
+FRIEND_INVITATION_REDUSE=<font> <font size='22' color='ff73b857'>{inviterName}</font> 拒绝了您的好友邀请。</font>
+FRIEND_INVITATION_SUCCESS=<font> 你和<font size='22' color='ff73b857'>{friendName}</font>成为了好朋友，一起玩耍吧。</font>
+FRIEND_LIST_FULL=您的好友列表已满，请先清理好友。
+FRIEND_TARGET_LIST_FULL=对方的好友列表已满
+FRIEND_TARGET PLAYER_YOUSELF=不能加自己为好友哦。
+FRIEND_TARGET_HAVE_DELETE=你们之间的好友关系已经解除
+FRIEND_HAVE_BEEN_FRIENDS=你们已经是好友啦。
+FRIEND_ALREAD_CONCERNED=今天已经关注过他啦
+FRIEND_APPLY_FULL=您已经发出过多申请，请耐心等待对方的回应
+FRIEND_BLACK_LIST_FULL=黑名单已满
+FRIEND_HAVE_ALREADY_APPLY=您已经发送过好友申请，请勿重复申请
+FRIEND_HAVE_IN_BLACK_LIST=该玩家已经在黑名单列表中
+FRIEND_CHOUREN_LIST_FULL=仇敌已满
+FRIEND_HAVE_IN_CHOUREN_LIST=该玩家已经在仇敌列表中
+FRIEND_TARGET_IN_BLACK_LIST=该玩家已经被你拉黑
+FRIEND_IN_BLACK_LIST=该玩家已经将你拉黑
+FRIEND_FORBIDDEN_APPLY=该玩家已屏蔽好友申请
+FRIEND_FIND_NONE=没有查询到名字中包含此关键字的玩家
+FRIEND_ONLINE=<font color='ffffffff'>您的好友{playerName}上线了</font>
+FRIEND_OFFLINE=<font color='ffffffff'>您的好友{playerName}下线了</font>
+FRIEND_ADD_SUCCESS=添加成功
+FRIEND_REFUSE_SUCCESS=拒绝成功
+FRIEND_DEL_SUCCESS=删除成功
+FRIEND_DEL_FAIL=删除失败
+FRIEND_SEND_MESSAGE=好友申请发送成功，请耐心等待对方回复
+FRIEND_HAVE_IN_YOU_APPLY=已在好友申请列表中

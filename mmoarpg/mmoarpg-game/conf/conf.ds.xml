@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ds-config>
+    <!-- master -->
+	 <pool>
+		<dsname>game</dsname>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://192.168.102.84:3306/xmds_game?useUnicode=true&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=utf8</url>
+		<username>root</username>
+		<password>root</password>
+		<minconn>1</minconn>
+		<maxconn>10</maxconn>
+		<timeout>30000</timeout>
+		<waittime>5000</waittime>
+		<checkable>true</checkable>
+		<checkinterval>300000</checkinterval>
+	</pool>
+	<!-- slave -->
+	 <pool>
+		<dsname>log</dsname>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://192.168.102.84:3306/xmds_game?useUnicode=true&amp;autoReconnect=true&amp;zeroDateTimeBehavior=convertToNull&amp;characterEncoding=utf8</url>
+		<username>root</username>
+		<password>root</password>
+		<minconn>0</minconn>
+		<maxconn>20</maxconn>
+		<timeout>100000</timeout>
+		<waittime>10000</waittime>
+		<checkable>false</checkable>
+		<checkinterval>300000</checkinterval>
+	</pool>
+</ds-config>

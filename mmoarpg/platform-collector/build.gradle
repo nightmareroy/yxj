@@ -1,0 +1,20 @@
+dependencies {
+	compile 'com.lmax:disruptor:3.+'
+	compile 'org.apache.logging.log4j:log4j-core:2.+'
+	compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+	compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.6.+'
+}
+
+jar {
+	manifest.attributes["Main-Class"] = "com.jsfunny.collector.CollectorApp"
+	manifest.attributes["Class-Path"] = '. '
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+	
+	manifest.attributes provider: '清源游戏'
+	manifest.attributes["Created-By"] = "${System.getProperty("java.version")} (${System.getProperty("java.specification.vendor")})"
+	manifest.attributes["Implementation-Title"] = project.name
+	manifest.attributes["Implementation-Version"] = project.version
+	
+	exclude 'log4j2.xml'	
+	exclude 'application.properties'	
+}

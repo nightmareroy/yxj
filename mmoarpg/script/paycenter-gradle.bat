@@ -1,0 +1,1 @@
+gradlew clean :platform-common:jar :platform-paycenter:jar :platform-paycenter:copyJars

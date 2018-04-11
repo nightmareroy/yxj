@@ -1,0 +1,1 @@
+gradlew clean :platform-common:jar :platform-usercenter:jar :platform-usercenter:copyJars

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="WARN" monitorInterval="1800" shutdownHook="disable">
+	<properties>
+		<property name="SERVER_NAME">paycenter</property>
+		<property name="LOG_HOME">/data/log/${SERVER_NAME}
+		</property>
+	</properties>
+
+	<appenders>
+		<!-- 控制台输出 -->
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+		</Console>
+		
+		<RollingRandomAccessFile name="DevLog" fileName="${LOG_HOME}/${SERVER_NAME}" filePattern="${LOG_HOME}/${SERVER_NAME}.%d{yyyy-MM-dd-HH}.log" immediateFlush="false">
+			<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingRandomAccessFile>
+	</appenders>
+	
+	<loggers>
+		<asyncRoot level="INFO" includeLocation="true">
+			<appender-ref ref="Console" />
+			<appender-ref ref="DevLog" />
+		</asyncRoot>
+	</loggers>
+</configuration>

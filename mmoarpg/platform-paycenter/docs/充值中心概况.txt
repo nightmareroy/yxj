@@ -1,0 +1,43 @@
+SpringBoot项目
+
+1.JAVA环境：jdk1.8+
+2.数据库环境：mysql
+3.操作系统：linux系统
+
+
+对外开放HTTP服务：8099端口
+	用于各渠道充值成功后发货通知回调接口
+
+
+对内开放TCP服务：10001端口
+	用于游戏区服直接，以便通知发货
+	
+	
+域名：			pcenter.yxj.aiwanba.com
+（腾讯云）IP：	111.231.101.15
+
+
+
+游戏服下订单接口
+	URL:
+		http://pcenter.yxj.aiwanba.com:8099/paycenter/take/control.jsp
+	参数：
+	int appid,			//应用ID
+	String channel, 	//渠道编号
+	String subchannel, 	//子渠道编号（可选）
+	int serverid, 		//服务器ID
+	String username, 	//用户名（UID）
+	String roleid, 		//角色ID
+	float money			//充值金额，单位：人民币的分
+
+	
+	
+渠道发货接口
+	清源URL：
+		http://pcenter.yxj.aiwanba.com:8099/paycenter/to/qengNotify.jsp
+	魅族URL:
+		http://pcenter.yxj.aiwanba.com:8099/paycenter/to/meizuNotify.jsp
+	当乐URL:
+		http://pcenter.yxj.aiwanba.com:8099/paycenter/to/downjoyNotify.jsp
+
+参数请参考各渠道的SDK文档

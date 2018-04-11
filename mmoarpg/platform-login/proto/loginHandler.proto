@@ -1,0 +1,70 @@
+//***************************************************************************
+//* 作者：阿贵
+//* 创建时间：2017-03-11
+//* 用途：登录处理器
+//***************************************************************************
+package pomelo.login;
+
+import 'common.proto';
+
+option java_package = "com.wanniu.login.proto";
+
+message LoginRequest {
+	required string appId 	= 1;		// APPID
+	required string uid 	= 2;		// 账号|第三方UID
+	required string token 	= 3;		// 密码|第三方验证返回的token
+	required string channel 	= 4;		// 渠道号
+	required int32 os		= 5;		// 系统类型
+	optional string imei	= 6;		// 设备号
+	optional string version	= 7;		// 版本号
+	required string channelUid = 8;
+}
+
+message LoginResponse {
+	required int32 s2c_code 	= 1;
+	optional string s2c_msg 		= 2;
+	optional string token	 	= 3;	// 服务器返回的登录令牌
+	optional string board	 	= 4;	// 服务器列表（json格式）
+	required string newUid 		= 5;	// 新生成带后缀的内部账号
+}
+
+message RegisterRequest {
+	required int32 appId 		= 1;		// APPID
+	required string account  	= 2;		// 账号
+	required string password 	= 3;		// 密码
+	required int32 channel 		= 4;		// 渠道号
+	required int32 os			= 5;		// 系统类型
+	optional string model		= 6;		// 设备型号
+	optional string imei		= 7;		// 设备号
+	optional string version		= 8;		// 版本号
+	optional string tel			= 9;		// 手机号码
+}
+
+message RegisterResponse {
+	required int32 s2c_code 	= 1;
+	optional string s2c_msg 		= 2;
+	optional string token	 	= 3;		// 服务器返回的登录令牌
+	optional string board	 	= 4;		// 服务器列表（json格式）
+}
+
+//登录处理器
+service loginHandler {
+
+  // 登录
+  rpc loginRequest(LoginRequest) returns (LoginResponse);
+  
+  // 创建内部账号
+  rpc registerRequest(RegisterRequest) returns (RegisterResponse);
+
+}
+message ServerStatePush {
+	required int32 sid 	= 1;
+	required int32 state 	= 2;
+}
+
+service loginPush {
+
+  // 服务器状态更新
+  rpc serverStatePush(ServerStatePush) returns (Void);
+
+}

@@ -1,0 +1,8 @@
+CHAT_LV_LESS=等级未达到%d级，无法在该频道留言
+CHAT_SYS_SCOPE_ERR=系统频道不可留言哦！
+CHAT_NOT_IN_TEAM=您需要加入一个队伍才能进行队伍聊天
+CHAT_WORLD_COOL=%s秒后才能继续在世界发言
+CHAT_DICE=掷点-%s掷出%d点
+CHAT_DAOYOU_ERR=还没有道友
+CHAT_GUILD_ERR=还没有仙盟
+CHAT_PLAYER_SHUTUP=你已被禁言

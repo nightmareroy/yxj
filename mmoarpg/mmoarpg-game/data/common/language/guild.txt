@@ -1,0 +1,67 @@
+GUILD_NAME_EMPTY=名字为空
+GUILD_PARAMS=参数错误
+GUILD_GETTED=已领取过改奖励
+GUILD_CREATE_LEVEL=建立仙盟需要<font color='fff43a1c'>等级{roleLevel}</font>
+GUILD_CREATE_COST=建立仙盟需要<font color='fff43a1c'>{guildPay}</font>钻
+GUILD_JOIN_LEVEL=加入该仙盟需要<font color='fff43a1c'>等级{roleLevel}</font>
+GUILD_JOIN_UP_LEVEL=加入该仙盟需要<font color='fff43a1c'>{roleUpLevel}</font>
+GUILD_CREATE_ERROR=你已经加入仙盟了
+GUILD_JOIN_FULL=最多同时申请<font color='fff43a1c'>{applyMax}</font>个仙盟
+GUILD_FULL=该仙盟人数已满
+GUILD_SELF_OUT=你已经退出了仙盟
+GUILD_KICK_NUM_NOT_ENOUGH=仙盟今日踢人次数已用完
+GUILD_BOSS_END_DETAIL_INFO=BOSS已被击杀，本次伤害%s，仙盟内排名%s，活动时间结束（每晚20:30)后，个人奖励通过邮件发放，仙盟奖励发放至仙盟竞拍，请注意查收。
+GUILD_NOT_JOIN=你还没有加入任何仙盟
+GUILD_BOSS_IN=仙盟活动期间不允许进行该操作,请活动结束后再试
+GUILD_NOT_EXIST=仙盟不存在
+GUILD_NO_POWER=你没有该操作权限
+GUILD_PRESIDENT_CANNOT_EXIT=请先转让盟主后再退出仙盟
+GUILD_MEMBER_NOT_EXIST=不存在该成员
+GUILD_APPLY_NOT_EXIST=该申请已被处理
+GUILD_NAME_EXIST=仙盟名字已被使用
+GUILD_LEVEL_FULL=仙盟已达最高等级
+GUILD_FUND_NOT_ENOUGH=仙盟资金不足
+GUILD_NOTICE_TOO_LONG=公告长度不能超过100个字
+GUILD_NAME_TOO_SHORT=请填写3-6个字的仙盟名称
+GUILD_NAME_TOO_LONG=请填写3-6个字的仙盟名称
+GUILD_ENTRY_MIN_LEVEL=入会等级设置不能低于<font color='fff43a1c'>{roleLevel}级</font>
+GUILD_NAME_CHANGE_CD=仙盟{cd}天内只能改名一次
+GUILD_JOB_NAME_TOO_LONG=官职名称太长
+GUILD_CONTRIBUTE_TIME_NOT_ENOUGH=今日可捐献次数不足
+GUILD_CONTRIBUTE_MATERIAL_NOT_ENOUGH=捐献材料不足
+GUILD_JOB_HIGHER_THAN_YOU=无法任命和自己同等和或更高等级职位
+GUILD_JOB_FULL=该职位人数已达上限
+GUILD_QQGROUP_TOO_LONG=扣群号码过长
+GUILD_QQGROUP_NOT_NUMBER=请输入正确的群号
+GUILD_JOB_NOT_SET_SELF=不能修改自己的职位
+GUILD_SELF_OUT_CD={time}后可加入仙盟
+GUILD_CREATE_CD={time}后可创建仙盟
+GUILD_KICK_JOB_TOO_LOW=无法踢除职位相同或更高级的成员
+GUILD_CANNOT_IMPEACH_SELF=盟主不能弹劾自己
+GUILD_PRESIDENT_IS_ONLINE=盟主在线,无法弹劾
+GUILD_NAME_SPECIAL_CHAR=仙盟名称不能包含特殊字符！
+GUILD_NAME_BLACK_STRING=仙盟名称不能包含非法字符！
+GUILD_JOB_NAME_SPECIAL_CHAR=职位名称不能包含特殊字符！
+GUILD_JOB_NAME_BLACK_STRING=职位名称不能包含非法字符！
+GUILD_NOTICE_BLACK_STRING=公告不能包含非法字符！
+GUILD_JOIN_TIME_TOO_SHORT=该成员入会时间太短，不能踢除！
+GUILD_LEVEL_NOT_ENOUGH=仙盟等级不足
+GUILD_EXP_NOT_ENOUGH=仙盟威望不足
+GUILD_NEED_GUILD_LEVEL=需要仙盟等级<font color='fff43a1c'>{buildingLevel}级</font>
+GUILD_NEED_DEPOT_LEVEL=需要仓库等级<font color='fff43a1c'>{buildingLevel}级</font>
+GUILD_NEED_BLESS_LEVEL=需要祈福等级<font color='fff43a1c'>{buildingLevel}级</font>
+GUILD_NEED_TECH_LEVEL=需要修行等级<font color='fff43a1c'>{buildingLevel}级</font>
+GUILD_JOB_NOT_EXIST=职位不存在
+GUILD_JOB_NAME_EMPTY=仙盟职位名字不能为空
+GUILD_HAVE_APPLY=该仙盟已申请
+GUILD_HE_IS_NOT_IN_GUILD=对方未加入仙盟，无法申请
+GUILD_JOB_NAME_REPEATED=仙盟职位名称不能重复
+GUILD_INVITE_OTHER_OFFLINE=对方不在线，无法邀请
+GUILD_INVITE_OTHER_IN_GUILD=对方已加入仙盟
+GUILD_HOUR=小时
+GUILD_MIN=分钟
+GUILD_SEC=秒
+GUILD_PRESIDENT_OFFTIME_NOT_ENOUGH=盟主{day}天不上线才能弹劾
+GUILD_PRESIDENT_TIPS={0}小时{1}人弹劾生效，当前{2}人弹劾，剩余时间{3}
+GUILD_CREATE=恭喜<font color='ffdccc9c'>%s</font>成功创建仙盟<font color='ffba41d6'>%s</font>，为对抗鬼界注入了新的力量！仙友们赶快去加入吧！
+

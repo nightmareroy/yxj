@@ -1,0 +1,4 @@
+AUCTION_ITEM_NOT_EXSIT=很抱歉，您所竞拍的物品已被人买走了
+AUCTION_PRICE_CHANGE=很抱歉，您所竞拍的物品竞价已变化
+AUCTION_NOT_START=很抱歉，竞拍尚未开始
+AUCTION_NOT_GUILD=很抱歉，您不可以竞拍其他仙盟的物品

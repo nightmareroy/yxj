@@ -1,0 +1,64 @@
+TEAM_IN_RAID=副本状态下不可进行组队
+TEAM_NULL=队伍已失效
+TEAM_OFF_LINE=该玩家已经下线了
+TEAM_QUIT=已离开队伍
+TEAM_PLAYER_OFF_LINE=有队友已经下线了
+TEAM_FOLLOW_CHANGE_AREA=组队跟随中不可切换场景
+TEAM_BATTLE_ERR=战斗中，队伍不可操作
+TEAM_BATTLE_FOLLOW=队长正在战斗中，无法跟随
+TEAM_TARGET_IN_RAID=队友正在酣战中
+TEAM_MEMBER_BATTLE=队友<font color='ff00a0ff'>%s</font>当前无法参与
+TEAM_TARGET_IN_TEAM=对方已经有队伍了
+TEAM_ALREADY_IN_TEAM=您已经在队伍中，不能再申请加入队伍
+TEAM_TARGET_REFUSE=<font> <font size='22' color='ff73b857'>{playerName}</font> 拒绝了你的组队申请</font>
+TEAM_ALREADY_INVITATION=您已提交过申请，无法再次申请
+TEAM_NO_AUTHORITY=只有队长才能进行这项操作
+TEAM_TARGET_IS_FULL=对方队伍已满，无法加入
+TEAM_IS_FULL=队伍人数已满
+TEAM_ENTER=已加入队伍
+TEAM_EXISTS=已有队伍了，无法再加入队伍
+TEAM_REFUSE=<font color='ffffffff'>%s</font>拒绝了您的组队邀请
+TEAM_TARGET_ENTER=<font> <font size='22' color='ff73b857'>{playerName}</font> 加入了你的队伍</font>
+TEAM_LEAVE=不在队伍中
+TEAM_TARGET_LEAVE=<font> <font size='22' color='ff73b857'>%s</font> 离开了你的队伍</font>
+TEAM_KICK=您已经被踢出了队伍
+TEAM_TARGET_KICK=<font> <font size='22' color='ff73b857'>{playerName}</font> 被踢出了你的队伍</font>
+TEAM_BE_CAPTAIN=<font> <font size='22' color='ff73b857'>{playerName}</font>将队长移交给了你</font>
+TEAM_CHANGE_CAPTAIN=<font> <font size='22' color='ff73b857'>{playerName}</font>成为队长</font>
+TEAM_BREAK_UP=队伍已被解散了
+TEAM_LOCKED=该队伍正在战斗，无法加入
+TEAM_INVITATION=组队邀请发送成功，请耐心等待对方回复
+TEAM_APPLY=组队申请发送成功，请耐心等待对方回复
+TEAM_TARGET_ERROR=自动匹配需要选择组队目标
+TEAM_MAPTPYE_TARGET_DISABLE=目标当前所在场景无法接受组队
+TEAM_SUMMON_FAIL_TARGET_INSTANCE=对方已在同场景中，不可召唤！
+TEAM_SUMMON_NOT_LEADER=队长才可召唤！
+TEAM_THIS_MSG_SEND_TOO_MUCH=此类消息发送太多
+TEAM_OBJ_LEAVE_TEAM=对方已不在队伍中
+TEAM_WE_NOT_ONE_TEAM=你们不在同一队伍中
+TEAM_NO_TEAM=未加入队伍
+TEAM_TARGET_NO_LV=等级低于队伍设定的最低等级
+TEAM_TARGET_MORE_LV=等级高于于队伍设定的最高等级
+TEAM_TARGET_SUCCESS=目标设置成功
+TEAM_SUMMON_MESSAGE=您的队友使用召唤功能将您召唤到{1}（{2}线），是否立即前往？
+TEAM_SUMMON_SEND_MESSAGE=已向%s发起召唤
+TEAM_SUMMON_SUCCESS=召唤{playerName}成功！
+TEAM_SUMMON_FAIL={playerName}拒绝了你的召唤
+TEAM_NOTARGET_GO=您当前没有设定具体目标，无法前往
+TEAM_NEED_MEMBER=<font>需要队伍人数达到 <font size='22' color='ff73b857'>%s</font> 人以上才能接取</font>
+TEAM_CALL_COOL=%s秒后才能再喊话
+TEAM_NO_GUILD=无仙盟
+TEAM_MEMBER=队友
+TEAM_MEMBER_COUNT=请组成三人以上队伍
+TEAM_AREA_FOLLOW_LV=队长所在场景需要%d级才能跟随
+TEAM_UNTHROW_POINT=<font color='ff55de5f'>放弃</font>---<font color='ff55de5f'>%s</font>
+TEAM_THROW_RESULT=<font color='ffddf2ff'>%s的掷点结果<font color='ffed2a0a'>[职业优先]</font>：
+TEAM_THROW_POINT=<font color='ff55de5f'>%d</font>点---<font color='ff55de5f'>%s</font>
+TEAM_THROW_WIN=<font color='ff55de5f'>%s</font>赢得了%d个%s</font>
+TEAM_THROW_WIN_EQUIP=<font color='ff55de5f'>%s</font>赢得了%d件%s</font>
+TEAM_GOTO_CANCEL=队长取消了前往
+TEAM_OTHER_LV_LESS=玩家等级太低，不可组队
+TEAM_LV_LESS=队伍功能%d级开放
+TEAM_TARGET_DESC=（队伍目标：%s）
+TEAM_ACROSS=跨服组队中，无法操作
+TEAM_MEMBER_BATTLE_ING=玩家[%s]不在当前场景或者已下线

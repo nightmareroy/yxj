@@ -1,0 +1,45 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.9.RELEASE'
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+configurations {
+    compile.exclude module: 'spring-boot-starter-logging'
+    compile.exclude module: 'logback-classic'
+}
+
+dependencies {
+	compile project(":platform-common")
+	
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.springframework.boot:spring-boot-starter-log4j2")
+	compile("org.springframework.boot:spring-boot-starter-data-jpa")
+	
+	compile 'com.lmax:disruptor:3.+'
+	compile 'mysql:mysql-connector-java:5.1.40'
+	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.41'
+	
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+
+jar {
+	manifest.attributes["Main-Class"] = "cn.qeng.usercenter.UsercenterApp"
+	manifest.attributes["Class-Path"] = '. '+configurations.runtime.collect{'lib/'+it.getName()}.join(' ')
+	
+	manifest.attributes provider: '清源游戏'
+	manifest.attributes["Created-By"] = "${System.getProperty("java.version")} (${System.getProperty("java.specification.vendor")})"
+	manifest.attributes["Implementation-Title"] = project.name
+	manifest.attributes["Implementation-Version"] = project.version
+
+	exclude 'log4j2.xml'	
+	exclude 'application.properties'	
+}
+
+task copyJars(type: Copy) {
+  from configurations.runtime
+  into 'build/libs/lib/' // 目标位置
+}

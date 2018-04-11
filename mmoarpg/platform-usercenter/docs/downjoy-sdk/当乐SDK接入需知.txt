@@ -1,0 +1,19 @@
+Dear 钢子，
+
+有劳优先对接当乐的SDK，目标游戏是苍狼诀
+
+关于sdk接入的注意事项：
+1、sdk需为最新版本，下载地址：http://open.d.cn/document/homeDocDetail.html?id=38，目前最新sdk为4.4.1
+升级FAQ：http://open.d.cn/document/homeDocDetail.html?id=73
+2、安卓客户端需用当乐签名文件签名，签名文件可在CP后台-sdk接入-sdk参数下载（ios游戏不用接入签名）
+3、进入游戏时需要有当乐闪屏，闪屏文件sdk4.3.X自带，4.3.X以下需手动添加，闪屏文件文档里有
+4、游戏本身icon需要有当乐角标
+5、游戏公告内不得带有外网链接、QQ群、微信微博号、二维码等信息
+6、游戏包名需添加downjoy或dl后缀
+7、sdk的方向需要和游戏方向一致
+
+SDK对接参数：
+厂商ID（MERCHANT_ID）:21915 
+应用ID（APP_ID）:8318 
+应用秘钥（APP_KEY）：NOpjZNMd 
+支付秘钥（PAYMENT_KEY）：M4uR5fWkfHqd

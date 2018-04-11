@@ -1,0 +1,7 @@
+MAIL_DEL_NOT_READ_OR_NOT_GET_ATTACH=邮件未读取或附件未领取不能删除
+MAIL_TEXT_TOO_LONG=邮件信息过长
+MAIL_PLAYER_IN_BLACK_LIST=不能给黑名单好友发送邮件
+MAIL_TITLE_BLACK_STRING=邮件标题中含有敏感词，请重新输入
+MAIL_NO_ATTACHMENT=该邮件没有附件或附件已领取
+MAIL_NO_SUCH_MAIL=该邮件不存在
+MAIL_TEXT_BLACK_STRING=邮件内容中含有敏感词，请重新输入

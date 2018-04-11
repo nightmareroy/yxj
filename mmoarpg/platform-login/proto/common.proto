@@ -1,0 +1,24 @@
+//***************************************************************************
+//* 作者: 卢松洁
+//* 创建时间: 2015-08-27
+//* 用途: 通用模块
+//***************************************************************************
+package pomelo;
+
+option java_package = "com.wanniu.login.proto";
+
+//空消息
+message Void {
+
+}
+
+message ErrMsg  {
+  required int32 s2c_code = 1;
+  optional string s2c_msg = 2;
+}
+
+message SysTimeResponse {
+	required int32 s2c_code  = 1;
+  	required string s2c_time = 2;
+ 	optional string s2c_msg  = 3;
+}

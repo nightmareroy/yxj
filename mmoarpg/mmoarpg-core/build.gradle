@@ -1,0 +1,18 @@
+sourceSets {
+    main {
+    	java {
+    		srcDirs = ['generated', 'src/main/java', 'src/csharp']
+    	}
+    }
+}
+
+dependencies {
+	compile project(":platform-common")
+	
+	compile group: 'io.netty', name: 'netty-all', version: '4.0.53.Final'
+	compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.41'
+	compile group: 'com.zeroc', name: 'ice', version: '3.6.4'
+	compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.13'
+	
+}

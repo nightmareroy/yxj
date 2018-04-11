@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<metalib name="Log">
+	
+	<!-- 在线统计 -->
+	<struct name="OnlineCount" desc="在线统计">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		
+		<entry name="minute" type="int" desc="(必填)今天第几分钟，从0开始，1，2，3..." />
+		<entry name="pcount" type="int" desc="(必填)当前在线玩家人数" />
+		<entry name="rcount" type="int" desc="(必填)当前在线机器人数" />
+	</struct>
+	
+	<!-- 充值日志 -->
+	<struct name="Recharge" desc="充值日志">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="productId" type="int" desc="商品编号" />
+		<entry name="type" type="string" desc="充值类型" />
+		<entry name="money" type="int" desc="充值金额" />
+	</struct>
+	
+	<!-- 创角日志 -->
+	<struct name="CreatePlayer" desc="创角日志">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="uid" type="string" desc="UID" />
+		<entry name="pro" type="int" desc="职业" />
+		<entry name="mac" type="string" desc="MAC地址" />
+		<entry name="ip" type="string" desc="IP地址" />
+	</struct>
+	
+	<!-- 角色升级 -->
+	<struct name="RoleUpgrade" desc="角色等级">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+		
+		<entry name="level" type="int" desc="角色等级" />
+		<entry name="exp" type="long" desc="角色经验值" />
+	</struct>
+
+	<!-- 货币流 -->
+	<struct name="MoneyFlow" desc="货币流" one_day="true">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="type" type="string" desc="钱的类型" />
+		<entry name="operate" type="int" desc="增加 1/减少 2" />
+		<entry name="before" type="int" desc="动作前的数量" />
+		<entry name="value" type="int" desc="涉及的金钱数" />
+		<entry name="after" type="int" desc="动作后的数量" />
+		<entry name="origin" type="int" desc="货币流动原因" />
+	</struct>
+	
+	<!-- 道具流 -->
+	<struct name="ItemFlow" desc="货币流" one_day="true">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="operate" type="int" desc="增加 1/减少 2" />
+		<entry name="itemcode" type="string" desc="道具编号" />
+		<entry name="count" type="int" desc="变化数量" />
+		<entry name="bind" type="boolean" desc="是否绑定" />
+		<entry name="origin" type="int" desc="货币流动原因" />
+	</struct>
+	
+	<!-- 坐骑升级日志 -->
+	<struct name="MountUpgrade" desc="坐骑升级日志">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="rideLevel" type="int" desc="阶数" />
+		<entry name="starLv" type="int" desc="星级" />
+	</struct>
+	
+	<!-- 宠物升级日志 -->
+	<struct name="PetUpgrade" desc="宠物升级日志">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="petId" type="int" desc="宠物编号" />
+		<entry name="petName" type="string" desc="宠物名称" />
+		<entry name="upLevel" type="int" desc="宠物星级" />
+		<entry name="level" type="int" desc="宠物等级" />
+		<entry name="exp" type="long" desc="宠物经验" />
+	</struct>
+	
+	<!-- 商城出售日志 -->
+	<struct name="Shop" desc="商城出售日志">
+		<entry name="_id" type="string" desc="(必填)事件唯一ID，建议使用UUID" />
+		<entry name="date" type="string" desc="(必填)事件时间, 格式 yyyy-MM-dd HH:mm:ss" />
+		<entry name="sid" type="int" desc="(必填)区服ID" />
+		<entry name="os" type="string" desc="(必填)系统类型5=苹果，6=安卓" />
+		<entry name="channel" type="string" desc="(必填)渠道" />
+		<entry name="subchannel" type="string" desc="(必填)子渠道" />
+		<entry name="id" type="string" desc="(必填)角色ID" />
+		<entry name="name" type="string" desc="(必填)角色名" />
+
+		<entry name="itemcode" type="string" desc="物品编号" />
+		<entry name="itemnum" type="int" desc="物品数量" />
+		<entry name="type" type="int" desc="商城类型" />
+		<entry name="money" type="long" desc="出售金额" />
+	</struct>
+</metalib>

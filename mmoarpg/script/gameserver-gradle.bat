@@ -1,0 +1,1 @@
+gradlew clean :platform-common:jar :mmoarpg-core:jar :mmoarpg-proto:jar :mmoarpg-game:jar

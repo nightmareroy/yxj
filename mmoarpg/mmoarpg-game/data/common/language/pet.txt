@@ -1,0 +1,15 @@
+CANNOT_GIVEUP_QUEST=目前不能放弃任务
+NOTHAVE_GUILD=未加入仙盟
+ILLEGAL_CHARACTER=宠物名中含有特殊字符，无法使用
+PET_NAME_NULL=宠物名字为空
+PET_NAME_LONG=宠物名字过长
+NOT_ENOUGH_ITEM=材料不足
+PET_NOT_EXIST=宠物可能被放生，已不在其主人的怀抱了
+ALREADY_BATTLE=该宠物已出战
+ALREADY_REST=该宠物已休息
+ALREADY_UPLVMAX=宠物神赐等级无法超过您，请先提升您的神赐等级
+ITEM_CAN_NOT_USE=该物品无法用于升级
+BATTLING=<f bcolor='ff000000' border= '8' size = '22' color='ff00ff00'>宠物已出战</f>
+RESTING=<f bcolor='ff000000' border= '8' size = '22' color='ff00ff00'>宠物已休息</f>
+ALREADY_HAVE_PET=已经拥有该宠物了
+PET_MAX_LEVEL=宠物等级已满

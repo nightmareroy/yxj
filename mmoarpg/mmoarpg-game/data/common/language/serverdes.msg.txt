@@ -1,0 +1,351 @@
+PLAYER_NULL=角色不存在
+PLAYER_ID_SENSITIVE=抱歉，名字中含有敏感词，请重新输入
+PLAYER_ID_CHARACTER=抱歉，名字中含有特殊符号，请重新输入
+PLAYER_ID_NULL=角色ID不存在
+PLAYER_UID_NULL=角色编号不存在
+PLAYER_NAME_NULL=英雄，请为自己起个响亮的名字吧
+PLAYER_NAME_LONG=抱歉哦，您的名字太长了，搞短一点别人才好记哦
+PLAYER_NAME_HAS_USED=抱歉，名字已被使用，请重新输入
+PLAYER_PRO_ILLEGALITY=非法信息
+PLAYER_TOKEN_NULL=密匙错误
+PLAER_CONSUMEPOINT_NOT_ENOUGH=抱歉，您没有足够的消费积分
+PLAER_XIANYUAN_NOT_ENOUGH=抱歉，您没有足够的仙缘
+VERIFY_FAIL=验证失败
+PARAM_ERROR=参数错误
+SERVER_EXTERNAL_TIME=正在维护中，开放时间:
+PLAYER_NOT_ONLINE=这个玩家不在线
+ROLE_LOCKED=角色已经被冻结
+ROLE_NUM_UPPER_LIMIT=角色数量已是上限
+PLAYER_CANT_DO=当前场景无法操作，已放弃
+PLAYER_LEVEL_NOT_ENOUGH=角色等級不足，需要等级：！
+PLAYER_NOT_FINISH_OR_NOT_HAVE_TASK=相应任务未接取或未完成！
+BAG_PLAYER_LEVEL_NOT_ENOUGH_CANNOT_USE=人物等级不足,无法使用
+BAG_ONLY_ONE_CAN_BE_USED_AT_A_TIME=每次只能使用一个
+BAG_USE_IN_CD=使用冷却中
+BAG_THIS_SENCE_CANNOT_USE_MEDICAMENT=该场景不能使用药剂
+BAG_HAD_THIS_SKIN=已经拥有该皮肤
+BAG_SKIN_NULL=皮肤不存在
+BAG_CANNOT_USE_MEDICAMENT_NOW=目前不能使用药剂
+BAG_PACKUP_CDTIME=背包整理太频繁了，请慢一点…
+BAG_FULL=背包已经满了
+BAG_NOT_ENOUGH_POS=背包没有足够的空间
+BAG_BECOME_FULL_NOTICE=你的背包已经满了，请及时整理
+STORE_SPACE_NOT_ENOUGH=背包存储空间不足，可购买空间或转移到仓库来提升背包空间
+BAG_FULL_SMELTING_CHEST=背包已满，放不下的物品已通过邮件发放
+WHITE=<font color='ffddf2ff'>{a}</font>
+GREEN=<font color='ff00d600'>{a}</font>
+BLUE=<font color='ff21b2ef'>{a}</font>
+PURPLE=<font color='fff403db'>{a}</font>
+ORANGE=<font color='ffef880e'>{a}</font>
+RED=<font color='ffff0000'>{a}</font>
+DEFAULT=<font color='ffddf2ff'>{a}</font>
+WHITE_LINK=<font color='ffddf2ff' style = '4' link='{b}'>{a}</font>
+GREEN_LINK=<font color='ff00d600' style = '4' link='{b}'>{a}</font>
+BLUE_LINK=<font color='ff21b2ef' style = '4' link='{b}'>{a}</font>
+PURPLE_LINK=<font color='fff403db' style = '4' link='{b}'>{a}</font>
+ORANGE_LINK=<font color='ffef880e' style = '4' link='{b}'>{a}</font>
+RED_LINK=<font color='ffff0000' style = '4' link='{b}'>{a}</font>
+AREA_LINK=<font color='ff00ffde' style = '4' link='{b}'>{a}</font>
+NAME_LINK=<font color='fff7ffa3' style = '4' link='%s'>%s</font>
+NAME_COLOR=<font color='fff7ffa3'>%s</font>
+TIME_COLOUR=<font color='ffddf2ff'>{a}</font>
+ITEM_GET=<font>您获得了%s个%s</font>
+ITEM_GET_BUY=<font>您购买了%s个%s</font>
+ITEM_QCOLOR_NAME_WHITE=<font color='ffddf2ff'>[{itemName}]</font>
+ITEM_QCOLOR_NAME_GREEN=<font color='ff00d600'>[{itemName}]</font>
+ITEM_QCOLOR_NAME_BLUE=<font color='ff21b2ef'>[{itemName}]</font>
+ITEM_QCOLOR_NAME_PURPLE=<font color='fff403db'>[{itemName}]</font>
+ITEM_QCOLOR_NAME_ORANGE=<font color='ffef880e'>[{itemName}]</font>
+ITEM_QCOLOR_NAME_RED=<font color='ffff0000'>[{itemName}]</font>
+ITEM_NOT_ENOUGH=需要的物品不足
+ITEM_NULL=该物品不存在
+ITEM_NOT_EQUIP=这不是一件装备
+ITEM_NOT_COMBINE=物品无法合成
+ITEM_COMBINE_NOT_ENOUGH=需要足够的材料才能合成
+GOLD_NOT_ENOUGH=抱歉，您的银两不够了
+TICKET_NOT_ENOUGH=抱歉，您的绑元不够了
+DIAMAND_NOT_ENOUGH=抱歉，您的元宝不够了
+SOLOPOINT_NOT_ENOUGH=抱歉，您的宗师币不够了
+GUILD_POINT_NOT_ENOUGH=抱歉，您的仙盟贡献不够了
+GAIN_TEAM_EXP=<f bcolor='ff000000' border= '8' size = '22' color='ffe2bc09'>获得%s点经验（+%s组队奖励）</f>
+GAIN_EXP1=J+%s
+GAIN_EXP_CHAT=你获得了<font color='ff00f012'>%s</font>经验
+GAIN_EXP_CHAT_WORLDLEVEL=你获得了<font color='ff00f012'>%s</font>经验（大神福利加成<font color='ff00f012'>%s</font>）
+GAIN_CLASS_EXP_CHAT=你获得了<font color='ff00f012'>%s</font>修为
+GAIN_GOLDS_CHAT=你获得了<font color='ff00f012'>%s</font>银两
+GAIN_EXP=h%de
+GAIN_DIAMOND=h%ds
+GAIN_PRESTIGE=h%dp
+GAIN_CASH=h%dc
+GAIN_GOLDS=h%dg
+ITEM_NOT_STORE=这件物品无法存入仓库
+ITEM_CAN_NOT_SELL=这件物品不能出售
+SCORLL_NOT_EXIST=图纸不存在
+GAIN_PET=恭喜！您获得了{petName}
+GAIN_PET_SAME=同时只能拥有1只同品质的该宠物
+GAIN_POTION=<f bcolor='ff000000' border= '8' size = '22' color='ff00ff00'>药剂已使用</f>
+ITEM_USE_NOTICE=<f bcolor='ff000000' border= '8' size = '22' color='ff00ff00'>{ItemName}已使用</f>
+FASHION_EXISTS=该部位已穿戴时装，请先卸下再进行穿戴
+EQUIP_NOT_EXIST=这件装备不存在
+EQUIP_POS_NOT_EXIST=当前部位不存在
+EQUIP_NOT_EQUIP=这个部位还没有装备
+EQUIP_HAVE_NO_POS_FOR_SET_GEM=没有多余的孔了
+EQUIP_FILL_ERROR=镶嵌已满
+EQUIP_UNFILL_ERROR=未镶嵌宝石
+EQUIP_CANNOT_USE_GEM=当前装备无法镶嵌此宝石
+EQUIP_MAX_STRENGTH_LEVEL=已达到最大强化等级
+EQUIP_CAN_NOT_REFINE=该装备无法精炼
+EQUIP_CAN_NOT_LOCK=无法继续锁定
+EQUIP_LOCKED_ID_ERR=锁定的词条id不正确
+REFINE_MATE_ERROR=精炼材料不正确
+REFINE_MATE_NOT_ENOUGH=精炼材料不足
+REFINE_RESET_PROP_NOT_EXIST=精炼属性不存在
+REFINE_RESET_MATE_NOT_ENOUGH=精炼材料不足
+REFINE_FAILED_TIPS=精炼失败
+EQUIP_MAKE_NOT_MAKE_PAPER=不是制作图纸，无法制作
+EQUIP_MAKE_MATE_NOT_ENOUGH=制作材料不足
+EQUIP_CAN_NOT_LEVEL_UP=该装备无法升级
+CAN_NOT_MELT=这件物品无法熔炼
+OCCUPATION_WRONG=您无法使用该职业的装备
+LEVEL_NOT_ENOUGH=您的等级不满足条件，请提升等级后再穿戴这件装备
+UP_NOT_ENOUGH=您的境界等级太低，无法穿上这件装备
+EQUIPMENT_STRENGTHEN_SPEAKER1=<font>{playerName}的{EquipmentName}强化至<font color='ffef880e'>+{EquipmentLevel}</font>，正在四处找人决斗，大家小心啊！</font>
+EQUIPMENT_STRENGTHEN_SPEAKER2=<font>天啊，{playerName}的{EquipmentName}竟然成功强化至<font color='ffef881e'>+{EquipmentLevel}</font>，仙友你也要加油哦！</font>
+EQUIPMENT_STRENGTHEN_SPEAKER3=<font>{playerName}的{EquipmentName}强化至<font color='ffef882e'>+{EquipmentLevel}</font>，土豪，求给我摸一下！</font>
+ITEM_COMBINE_SPEAKER1=<font>{playerName}爽快地合成了{ItemName}，不愧是土豪界的领军人物！</font>
+ITEM_COMBINE_SPEAKER2=<font>{playerName}合成了{ItemName}，在大神的道路上又迈出了一步！</font>
+ITEM_COMBINE_SPEAKER3=<font>{playerName}合成了瑰丽多姿的{ItemName}，闪瞎了围观群众的双眼！</font>
+EQUIPMENT_LEVELUP_SPEAKER1=<font>{playerName}把装备升级到<font color='ffef880e'>{EquipmentWearLv}</font>的{EquipmentName}，苍天啊，能战胜他的人在哪？！</font>
+EQUIPMENT_LEVELUP_SPEAKER2=<font>{playerName}把装备升级到了金闪闪的<font color='ffef880e'>{EquipmentWearLv}</font>装备{EquipmentName}，这是要空手拆地球的节奏呀~</font>
+EQUIPMENT_LEVELUP_SPEAKER3=<font>{playerName}换上了刚刚升级到<font color='ffef880e'>{EquipmentWearLv}</font>的{EquipmentName}，还有人能跟他过一招吗？！</font>
+EQUIPMENT_UPGRADE_SPEAKER1=<font>{playerName}的装备升品到{EquipmentName}，属性DUANG就起飞了！</font>
+EQUIPMENT_UPGRADE_SPEAKER2=<font>{playerName}的装备升品到{EquipmentName}，不愧是会玩的，战力稳了！</font>
+EQUIPMENT_UPGRADE_SPEAKER3=<font>有钱不可怕，可怕的是有钱还有文化，{playerName}把装备升品到{EquipmentName}！</font>
+EQUIPMENT_MAKE_SPEAKER1=<font>哇，{playerName}打造了{ItemName}，大家快来膜拜！！</font>
+EQUIPMENT_MAKE_SPEAKER2=<font>{playerName}制作了全新的{ItemName}，神豪，求大腿！</font>
+EQUIPMENT_MAKE_SPEAKER3=<font>{playerName}制作了{ItemName}，只能让人联想到某古人的话：完美无瑕，无懈可击！</font>
+EQUIPMENT_REFINE_HIGHEST=全部精炼属性均精炼到最高阶数
+MELT_NOTHING=请选择需要熔炼的装备
+WING_LOCKED=翅膀尚未解锁
+WING_ALREADY_MAX_LEVEL=翅膀已达最高品级
+WING_NOT_ENOUGH_REIKI=灵气不足，击杀50级以上精英怪可获得灵气
+WING_NOT_ENOUGH_MATERIAL=没有足够的培养材料
+FIGHT_POWER_ADD=<font color='ffe8dd3a'>战力+{fightPower}</font>
+AREA_ID_NULL=场景编号不存在
+AREA_NOT_TRANSFER=该场景不允许传送
+TARGET_PATH_NOT_AVAILABLE=目标所在场景无法寻路
+AREA_PLAYER_LEVEL_LIMIT=需要等级达到{playerLevel}
+TEAM_MEMBER_LEVEL_LIMIT=队伍内存在低于{level}级以下玩家，无法进入
+AREA_TEAM_LEVEL_NOT_ENOUGH=队友【{playername}】等级太低，无法进入
+MAP_NOT_SWITCH=当前地图无法切换场景
+MAP_IN_MPA=您已经在该场景中
+MAP_OVER_LEVEL=您已超过{level}级，无法进入该场景
+MAP_OVER_UPLEVEL=您已超过{uplevel}，无法进入该场景
+MAP_IN_FIGHT=与玩家战斗状态下无法使用快捷传送功能
+DUNGEON_JJC_NUM_NOT_ENOUGH=今日挑战次数已达上限
+DUNGEON_JJC_NOT_OPEN=活动尚未开放，请留意界面展示的开放时间
+DUNGEON_GUILDBOSS_NOT_OPEN=活动尚未开放，请留意界面展示的开放时间
+DUNGEON_GUILDBOSS_NOT_GUILDMEMBER=不是工会成员不能进入该场景
+DUNGEON_GUILDBOSS_BOSS_DEAD=boss已经死亡,请下次再参与
+DUNGEON_GUILDBOSS_NOT_TEAM_LEADER=只有队长才能进行该操作,请离队后再试
+DUNGEON_GUILDBOSS_NOT_SAME_GUILD=队伍中有玩家与你不在同一仙盟,无法进入
+DUNGEON_GUILDBOSS_NOT_JOIN_GUILD=队伍中有玩家未加入仙盟,无法进入
+MATCH_IN_TEAM=您在组队状态下无法使用自动匹配功能
+ACHIEVEMENT_FINISH_WHITE=<font color='ffffffff'>【目标成就】{playerName}完成了成就[<font color='ffddf2ff'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_FINISH_GREEN=<font color='ffffffff'>【目标成就】{playerName}完成了成就[<font color='ff00d600'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_FINISH_BLUE=<font color='ffffffff'>【目标成就】{playerName}完成了成就[<font color='ff21b2ef'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_FINISH_PRUPLE=<font color='ffffffff'>【目标成就】{playerName}完成了成就[<font color='fff403db'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_FINISH_ORANGE=<font color='ffffffff'>【目标成就】{playerName}完成了成就[<font color='ffef880e'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_FINISH_RED=<font color='ffffffff'>【成就】{playerName}完成了成就[<font color='ffff0000'>{achievementName}</font>],让我们来膜拜他吧。</font>
+ACHIEVEMENT_NOT_ACTIVATED=该部位不可激活
+ACHIEVEMENT_ACTIVATED=该部位已激活
+ITEM_LOUD_NOT_ENOUGH=您没有小喇叭，无法进行全服喊话
+TIMES_NOT_ENOUGH=次数不够
+EXCHANGE_LEVEL_NOT_REACH=你的等级不够
+EXCHANGE_STAGE_NOT_REACH=你的境界升阶等级太低
+SALE_ITEM_NOT_EXIST=物品不存在
+SALE_ITEM_NOSELL=物品不可出售
+SALE_SELL_ITEMS_EMPTY=出售物品为空
+CONFIG_ERR=配置错误
+SOMETHING_ERR=未知错误
+DATA_ERR=参数错误
+HAVE_THIS_MSG=消息不存在
+EXPIRED_MSG=消息已过期
+PLEASE_OPEN_PLAYER_INTERFACE=查看自己请打开人物主界面
+CONFIRM_ENTRY=确认进入
+LINK_HAS_FAILED=链接已经失效
+PARAM_INVALID=系统错误。
+DAILY_HAS_ACCEPTED=师门任务已经接取
+DAILY_TODAY_MAX=今日师门完成次数已达上限取
+CANNOT_ACCEPT_QUEST=目前不能接受任务
+CANNOT_COMPLETE_QUEST=还不能领取任务奖励
+TASK_TEMPLATE_NOT_EXIST=任务模板不存在
+TASK_TIME_IS_NOT_OPEN=任务不在开放时间内
+TASK_JOB_ERROR=任务职业不相符
+TASK_IS_ACCPETED=任务已经接取,不能重复接取
+TASK_UPLEVEL_ERROR=任务进阶等级需求不符
+TASK_LEVEL_ERROR=升到%d级后，才能领取该任务
+TASK_BEFORE_ERROR=前置任务未完成
+TASK_NEED_TEAM=请组成三人以上队伍
+TEAM_SET_AUTO_SUCC=设置成功
+TASK_OBJ_FAR_AWAY=距离交互目标太远
+NOT_ENOUGH_GOLD_LEARN=您的银两不足，可前往【商城-杂货商店】购买
+NOT_ENOUGH_DIAMOND=元宝不足
+SOLO_REWARD_NOT_EXIST=奖励不存在
+SOLO_REWARD_CANNOT_DRAW=奖励不可领取
+SOLO_REWARD_HAS_DRAWED=奖励已领取
+SOLO_BUY_TIMES_LIMIT=今日购买次数已达上限
+SOLO_USE_SWEEP_BY_ONE=手动挑战一次后才能使用扫荡功能
+SOLO_ENTER_TIMES_LIMIT=挑战次数已用完
+SOLO_NO_ENEMY=你还没有匹配到对手
+SOLO_NOT_IN_OPEN_TIME=活动尚未开放，请留意界面展示的开放时间
+AREA_CANNOT_CHANG_PKMODE=该场景不能切换战斗模式
+SOLO_GIFTTYPE1=每日奖励
+SOLO_GIFTTYPE2=每周奖励
+SOLO_GIFTTYPE3=段位奖励
+SOLO_MATCHING_HAVE_QUIT=你已退出问道大会匹配队列
+SIGN_HAVE_SIGNED=今日已签到
+SIGN_HAVE_RECEIVED=该奖励已领取
+SIGN_NOT_ENOUGH_COUNT=签到次数不足
+SIGN_NOT_EXIST=该奖励不存在
+SIGN_NOT_RECHARGE=今日未充值,无法领取
+SIGN_NO_VIP_DOUBLE=该奖励没有月卡双倍活动
+SIGN_HAVE_NOT_SIGN=未签到,无法领取
+SIGN_VIP_LEVEL_NOT_ENOUGH=VIP等级不足
+ONLINE_HAVE_RECEIVED=奖励已领取
+ONLINE_UPLEVEL_NOT_MATCH=境界升阶等级不满足条件
+ONLINE_LEVEL_NOT_MATCH=等级不满足条件
+LEVEL_NOT_LIMIT_ENTER=不符合该场景进入等级
+ONLINE_TIME_NOT_ENOUGH=今日在线时间不够
+LINE_CHANGE_SUCESS=分线切换成功
+LINE_CHANGE_FAILED=该分线十分拥挤，请切换其他空闲分线
+LINE_CHANGE_UNECESSARY=您已在该分线
+SHOPMALL_REMAINNUM_NOT_ENOUGH=当天购买次数已用完
+SHOPMALL_SEND_FRIEND_ITEM=您的好友{playerName}赠送给你{itemNum}个{ItemName}。
+SHOPMALL_SEND_FRIEND_ITEM_TITLE=商城物品赠送
+SHOPMALL_LIMIT_ITEM_OVER=限时物品已下架
+SHOPMALL_ITEM_OPEN_NOT=此类物品未开放
+DEPOT_NOT_EQUIP=该物品不是装备
+DEPOT_EQUIP_IS_BIND=该装备已绑定
+DEPOT_EQUIP_CANNOT_DEPOSIT=该装备不可存入仙盟仓库
+DEPOT_EMPTY_BAG_INDEX=你的背包不存在该装备
+DEPOT_EMPTY_DEPOT_BAG_INDEX=仙盟仓库不存在该装备
+DEPOT_QUALITY_CONDITION_INVALID=装备品质区间设置不正确
+DEPOT_NOT_EXIST=仙盟仓库不存在
+DEPOT_UPLEVEL_NOT_ENOUGH=境界升阶等级太低,无法使用仙盟仓库
+DEPOT_LEVEL_NOT_ENOUGH=等级太低，无法使用仙盟仓库
+DEPOT_JOB_NOT_ENOUGH=仙盟职位太低，无法使用仙盟仓库
+DEPOT_EQUIP_QUALITY_NOT_IN_CONDITION=该装备品质不在设置区间内
+DEPOT_SPACE_NOT_ENOUGH=仙盟仓库空间不足
+DEPOT_PAWN_GOLD_NOT_ENOUGH=仙盟仓库贡献不足
+DEPOT_LEVEL_FULL=仙盟仓库等级已满
+DEPOT_DEPOSIT_COUNT_NOT_ENOUGH=你今天的存入次数已用完
+DEPOT_DELETE_T_COUNT_NOT_ENOUGH=仓库今天的删除次数已用完
+DEPOT_EQUIP_LEVEL_NOT_NOUGH=装备等级太低，无法存入
+DEPOT_EQUIP_COLOR_NOT_NOUGH=装备品质太低，无法存入
+DEPOT_EQUIP_CONFIG_NOT_EXIST=无法找到该装备相应存入配置，无法存入
+BLESS_GIFT_HAVE_RECEIVED=你已领取今日奖励
+BLESS_TIMES_NOT_ENOUGH=今日祈福次数已用完
+BLESS_ITEM_NOT_EXIST=祈福物品不存在
+BLESS_NOT_FINISH=仙盟祈福进度未完成
+BLESS_NO_POWER=你没有该操作权限
+BLESS_LEVEL_FULL=仙盟祈福等级已满
+FISH_FAILED=什么都没有钓到，再来一次吧
+CROSS_SERVER_AUTH_LIMIT=连服无法进行这些操作
+CROSS_SERVER_AUTH_LIMIT_FIGHTLEVEL=当前在副本中，不可进入连服场景
+CROSS_SERVER_AUTH_LIMIT_ADDFRIEND=抱歉，对方和你不在同一个服务器，不能加好友。
+CROSS_SERVER_AUTH_LIMIT_TEAM_FORM1=你不在连服区域，无法与其它服的玩家组队。
+CROSS_SERVER_AUTH_LIMIT_TEAM_FORM2=对方不在连服区域，无法与其组队。
+TECH_LEVEL_FULL=修行等级已满
+TECH_BUFF_LEVEL_FULL=修行增益属性等级已满
+TECH_BUFF_NEED_TECH_LEVEL=增益属性等级已超过修行等级，请先升级仙盟修行
+TECH_SKILL_NEED_TECH_LEVEL=仙盟修行等级{0}级，最大技能等级{1}级，先升级仙盟吧
+TECH_SKILL_NOT_EXIST=技能不存在
+TECH_SKILL_LEVEL_FULL=技能已满级
+GUILD_CONTRIBUTION_NOT_ENOUGH=仙盟贡献不足
+TECH_PRODUCT_NOT_EXIST=仙盟进入不产出该物品
+TECH_PRODUCT_SELL_OUT=该物品已售罄
+GDUNGEON_OPEN_WORDS=【仙盟】<f color='ff37f527'>仙盟副本已经开启，宝藏和积分在召唤，快去看看吧。</f>
+GDUNGEON_NO_TIMES=无法参加仙盟副本
+GDUNGEON_OPEN_MAX=仙盟副本开启次数已达上限
+GDUNGEON_OPEN_CD=仙盟副本暂时无法开启
+GDUNGEON_OPEN_GETREADY=仙盟副本正在准备时间，请稍候。
+GDUNGEON_PLAYER_MAX=副本人数已达上限，无法进入。
+GDUNGEON_ENTER_ERROR=仙盟副本创建中，请重新进入
+IN_GDUNGEON_KICK=该玩家正在仙盟副本内奋战，无法移除。
+GAIN_REIKI=<f bcolor='ff000000' border= '8' size = '22' color='ffe2bc09'>获得:{reikiNm}灵气</f>
+ROLL_COMPLETED=你已经掷过点了
+ROLL_NORIGHT=未参加仙盟副本不能掷点
+ROLL_NOTOPEN=掷点未开始
+ROLL_END=掷点已结束
+GDUNGEON_NOTOPEN=仙盟副本未开启
+GDUNGEON_FIGHTING=仙盟副本正在挑战中
+DUNGEON_CANNOT_BUY=此副本不可购买挑战次数
+DUNGEON_NOT_DOUBLE_REWARD=当前没有双倍奖励可领取
+FUNC_SET_PLAYED_NOT_OPEN=该功能还未开启
+FUNC_SET_TARGET_NOT_OPEN=对方尚未开启该功能
+ACHIEVE_CHAPTER_NOT_OPEN=当前章节未达成开启条件
+SIMULATE_TOO_LARGE=模拟参数太大
+SIMULATE_LEVEL_LOW=掉落等级不能高于TC等级
+SIMULATE_PROP_FIND=没有找到对应的TcCode
+MONSTER_BOSS_REBORN_MESSAGE=领主{name}已在<f color='ff40b4e5'>{site}</f>刷新，请仙友们速速前去消灭
+MONSTER_BOSS_KILLED_MESSAGE={0}在<font size='20' color='ffffc98a'>{1}</font>成功击败【{2}】，获得了大量奖励！
+MONSTER_BOSS_KILLED_ONE={0}在<font size='20' color='ffffc98a'>{1}</font>成功击败【{2}】，获得了{3}.
+MONSTER_BOSS_KILLED_TEAM={0}在<font size='20' color='ffffc98a'>{1}</font>合力击败了【{2}】，获得了{3}.
+MONSTER_BOSS_PICK_ITEM_MESSAGE1=恭喜{playerName}，在<font size='20' color='ffffc98a'>{mapName}</font>拾取了{monsterName}掉落的{item}！
+MONSTER_BOSS_PICK_ITEM_MESSAGE2={playerName}撞大运啦！竟然在<font size='20' color='ffffc98a'>{mapName}</font>获得了{monsterName}掉落的{item}！
+MONSTER_BOSS_PICK_ITEM_MESSAGE3={monsterName}<font size='20' color='ffffc98a'>({mapName})</font>掉落的{item}，被{playerName}捡到了！
+PK_LEVEL_REQ=您现在等级太低，{0}级后可以切换对战模式
+PK_VALUE_ZERO_NOT_USE=你的杀气为0，无需使用这件物品
+REWARDPK_NOPLAY=抱歉，查无此人，请确认名字是否正确。
+REWARDPK_MAX=你可发布的悬赏已到上限。
+REWARD_CANNOT_REWARD_SELF=不能悬赏自己
+REWARD_PLEASE_CHOICE_REWARD_OBJ=请选择悬赏目标
+REWARD_CANNOT_CROSS_SERVER_REWARD=不能跨服悬赏
+REWARD_LEVEL_NOT_ENOUGH=等级不足
+REWARD_ONLY_REWARD=只能悬赏{RoleLevel}级以上玩家
+REWARD_YOU_POST_REWARD_UP_LIMT=你可发布的悬赏已到上限
+REWARD_TOO_MUCH_PLAYERS_REWARD_THIS_PLAYER=这个玩家已经被太多人悬赏了
+REWARD_YOU_REWARDED_THIS_PLAYER=你已经悬赏了该玩家，不用重复悬赏
+REWARD_YOU_HAVE_NO_THIS_REWARD_NEED_ITEM=你还没有获得该悬赏者的耳朵
+TRADE_GET=交易获得{tradeItem}
+TRADE_LOST=交易失去{tradeItem}
+CONSIGNMENT_OPEN_LEVEL=寄卖行[<font color='ffddf2ff'>{needLevel}</font>],级开启
+CONSIGNMENT_ITEM_CANNOT_BUY=物品已经下架或卖出，无法购买
+CONSIGNMENT_CANNOT_BUY_SELF_ITEM=不能购买自己出售的物品
+CONSIGNMENT_PRICE_LESS=当前售价低于最低售价，请调整后重新上架
+CONSIGNMENT_PRICE_MORE=当前售价超出最高售价，请调整后重新上架
+CONSIGNMENT_BIND_CANNOT=绑定物品不可寄卖
+CONSIGNMENT_ITEM_CANNOT_SALE=该物品不能寄卖
+CONSIGNMENT_ITEM_NUM_LESS_ONE=数量不能低于1个
+CONSIGNMENT_GOLD_NOT_ENOUGH=银两不足,不能寄卖
+COMMONUTIL_ITEM_IS_IN_SALE=寄卖失败,该道具已在寄卖行
+CONSIGNMENT_ITEM_EXPIRE_WAIT_SYS_TAKE_BACK=物品已经到期,等待系统退回
+CONSIGN_PUBLISH_YINLIANG=本次宣传需要消耗{num}银两, 是否继续？
+CONSIGN_PUBLISH_BANGYUAN=本次宣传需要消耗{num}绑元, 是否继续？
+CONSIGN_PUBLISH_YUANBAO=本次宣传需要消耗{num}绑元, 当前绑元不足,将扣除{num2}元宝, 是否继续？
+MAP_ITEM_NOT_ENOUGH=您身上的{ItemName}数量不足，无法进入该场景
+MAP_IN=您已在该场景
+WORLDEXP_NOT_TIME=膜拜次数不足
+WORLDEXP_NEWS={playerName}运气真好，获得了<font color='ff55de5f'>超级膜拜礼包</font>！
+UPGRADE_NEED_UPLEVELEXP=修为不足，不能进阶，点击进度条+号快速获得修为
+UPGRADE_MAX_LEVEL=当前已是最高境界
+UPGRADE_NEED_LEVEL=你需要达到{x}等级才能突破进阶
+UPGRADE_NEED_OPTION=通关副本{Dungeon}({HardModel})后才可突破进阶
+5V5_SHARE={playerName}分享了试炼大赛任务，<font color='ff00a0ff' style = '4' link='{Battlefield}'>点击查看</font>
+BUFF_FIGHT_UP=<f color='ffddf2ff'>攻击力上升</f>
+ARENA_GREEDY_BUFF=<f color='ffddf2ff'>你获得了</f><f color='ffed2a0a'>[贪婪]</f><f color='ffddf2ff'>，拾取范围扩大！</f>
+ARENA_TIANSHEN_BUFF=<f color='ffb9217d'>【%s】</f><f color='ffddf2ff'>被天神附身，已经变得无法阻挡了。</f>
+ARENA_FIRST_KILLED=<f color='ffddf2ff'>当前积分第一的</f><f color='ffb9217d'>【%s】</f><f color='ffddf2ff'>被击败了。</f>
+ARENA_TO_FIRST=<f color='ffb9217d'>【%s】</f><f color='ffddf2ff'>通过巧取豪夺，登上了本场积分第一名。</f>
+FADE_MSG_NO_BENIFIT=该副本收益次数为0，将不会有任何掉落产出z
+EQUIP_SMRITI_QULITY=右边的装备品质必须大于等于绿色
+EQUIP_SMRITI_LEVEL=右边的装备等级必须大于等于左边的装备等级
+BAG_STACKINDEX_ILLEGALITY=该装备不存在
+EQUIP_SMRITI_CANNOT=该装备不能被继承
+GUILD_BOSS_INSPIRE_SCENE=不在工会BOSS场景下不能进行鼓舞
+GUILD_BOSS_INSPIRE_MAXCOUNT=鼓舞次数已达上限
+ILLU_GATHER_MAX=今日在秘境的采集次数已达上限
+GUILD_BOSS_INSPIRE_DEAD=BOSS已经死亡!
+CLENT_SERVER_VSESION_NOT_SAME=当前客户端版本号过老,请更新
+EQUIP_REFINE_LEGEND_PURPLE=只有橙色以及橙色以上品质的装备才可以开光

@@ -1,0 +1,3 @@
+CARD_MONTH_NONE=您还没有购买月惠卡
+CARD_FOREVER_NONE=您还没有购买尊享卡
+CARD_RECEIVED=每日福利已领取，请明天再来

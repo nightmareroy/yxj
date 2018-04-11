@@ -1,0 +1,7 @@
+RELIVE_FREE=免费%d/%d
+RELIVE_DIAMOND=%d绑元
+RELIVE_FULL=当前场景复活次数已满！
+REVIVE_NOT_FIND_PLAYER=未找到玩家信息
+REVIVE_MAX=已达复活次数上限
+REVIVE_JJC_KILL=<font size='22' color='ffe7e5d1'>您被{playerName}杀死！<br/> 15秒后将在最近的复活点复活，复活后可以继续参与战斗</font>
+RELIVE_COOL_TIME=%s后才可以安全复活
